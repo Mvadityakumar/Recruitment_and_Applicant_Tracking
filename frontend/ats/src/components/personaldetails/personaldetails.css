@@ -1,0 +1,135 @@
+.outerpersonaldatamain{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    
+}
+
+
+.outerpersonaldata{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 30px;
+    margin: 20px;
+   
+    
+    
+
+
+    
+
+}
+.outerpersonaldata1{
+    text-align: center;
+}
+.outerpersonaldata1 button{
+    margin: 5px;
+    width: 280px;
+    padding: 7px;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 20px;
+   
+    cursor: pointer;
+    color: aliceblue;
+    background-color: var(--text1);
+    
+
+}
+
+.outerpersonaldata1 a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.personaldata{
+    background-color: var(--background);
+    box-shadow: 2px 2px 5px;
+    border-radius: 10px;
+    padding: 20px;
+    
+}
+
+.personaldata h3{
+    text-align: center;
+    padding-bottom: 20px;
+
+}
+.personaldatainner{
+    text-align: center;
+    justify-content: center;
+    
+}
+.personaldatainner img{
+    border-radius: 10px;
+    margin-bottom: 10px;
+
+    
+
+}
+
+.personaldatainner1{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.personaldatainner1 a{
+    text-decoration: none;
+    color: var(--text1);
+}
+
+.personaldatabuttoninner{
+   
+   
+    text-align: center;
+
+}
+.personaldatabutton{
+    margin-top: 50px;
+}
+.personaldatabutton1{
+    margin: 5px;
+    width: 280px;
+    padding: 7px;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 20px;
+   
+    cursor: pointer;
+    color: aliceblue;
+    background-color: var(--text1);
+}
+
+#personaldatabutton2{
+    margin: 5px;
+    width: 135px;
+    padding: 7px;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 20px;
+   
+    cursor: pointer;
+    color: aliceblue;
+    background-color: green;
+}
+
+#personaldatabutton3{
+    margin: 5px;
+    width: 135px;
+    padding: 7px;
+    border-radius: 10px;
+    border: none;
+    
+   
+    cursor: pointer;
+    color: aliceblue;
+    background-color: red;
+}
+
+.personaldatabuttoninner1{
+    display: flex;
+    justify-content: center;
+   
+
+}

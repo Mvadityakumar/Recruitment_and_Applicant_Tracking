@@ -1,0 +1,15 @@
+:root{
+    --primary:#643AA0;
+    --secondary:#643AA0;
+    --third:#E1D7F1;
+    --status:#F466F6;
+    --text1:#401E70;
+    --tex2:#232426;
+    --background:rgb(247, 244, 251);
+}
+
+.HamburgerMenu{
+    position: absolute;
+    right: 2%;
+    cursor: pointer;
+}

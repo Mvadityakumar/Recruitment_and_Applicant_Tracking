@@ -1,0 +1,83 @@
+.box2 {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  color: var(--text1);
+}
+.box2 h3{
+  font-size: 20px;
+}
+
+.box11 {
+  background-color: rgb(247, 244, 251);
+  box-shadow: 2px 2px 5px grey;
+  width: 370px;
+  border-radius: 10px;
+}
+
+.boxarea{
+  background-color: rgb(247, 244, 251);
+  box-shadow: 2px 2px 5px grey;
+  width: 870px;
+  border-radius: 10px;
+}
+
+.circlearea{
+  background-color: rgb(247, 244, 251);
+  box-shadow: 2px 2px 5px grey;
+  width: 370px;
+  border-radius: 10px;
+}
+
+.box2 select {
+  background-color: var(--text1);
+  border-radius: 5px;
+
+  color: white;
+  outline: none;
+}
+
+.Barss {
+  border-radius: 10px;
+}
+
+.itemsnames ul{
+  display: flex;
+  justify-content: space-evenly
+
+
+}
+
+.itemsnames ul, li {
+  list-style-type: square;
+
+  
+  }
+
+li:nth-child(1)::marker{
+  color: #643AA0;
+}
+li:nth-child(2)::marker{
+  color: #E1D7F1;
+}
+li:nth-child(3)::marker{
+  color: #401E70;
+}
+li:nth-child(4)::marker{
+  color: #F466F6;
+}
+
+
+@media screen and (max-width: 800px) {
+    .boxarea{
+      width: 350px;
+    }
+
+    .boxarea1{
+      display: inline;
+      
+      
+      
+    }
+
+}

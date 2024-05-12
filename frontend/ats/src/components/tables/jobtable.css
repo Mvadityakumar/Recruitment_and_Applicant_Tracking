@@ -1,0 +1,27 @@
+.jobtable{
+   
+    width:1100px;
+    background-color: rgb(247, 244, 251);
+    box-shadow: 2px 2px 5px grey;
+
+    border-radius:10px ;
+}
+
+@media screen and (max-width:1450px) {
+    .jobtable{
+   
+        width:500px;
+        
+    }
+    
+}
+
+@media screen and (max-width:500px) {
+    .jobtable{
+   
+        width:370px;
+        
+    }
+    
+}
+

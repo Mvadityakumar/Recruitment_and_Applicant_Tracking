@@ -1,0 +1,61 @@
+.leftmain {
+  max-width: 900px;
+  background-color: rgb(247, 244, 251);
+  box-shadow: 2px 2px 5px grey;
+
+  border-radius: 10px;
+  
+  
+  
+  
+}
+
+.leftboxbutton button {
+  width: 180px;
+  padding: 5px;
+  background-color: var(--text1);
+  color: white;
+  border-radius: 8px;
+  border: none;
+  margin: 30px;
+  cursor: pointer;
+}
+.leftboxbutton {
+  display: flex;
+  justify-content: center;
+}
+
+.jobcheckbox {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.leftboxoption1 {
+  margin-left: 20px;
+}
+.leftboxoption1 h3 {
+  color: var(--text1);
+}
+
+.leftboxoption2 h3 {
+  color: var(--text1);
+}
+.leftboxoption2 {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.leftboxoption1 select {
+  border-radius: 5px;
+  width: 150px;
+  border: 1px solid var(--text1);
+}
+
+.leftboxoption2 select {
+  border-radius: 5px;
+  width: 150px;
+  border: 1px solid var(--text1);
+}
+
+@media screen and (max-width: 910px) {
+  
+}

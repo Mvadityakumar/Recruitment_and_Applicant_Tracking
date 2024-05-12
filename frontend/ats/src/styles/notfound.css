@@ -1,0 +1,7 @@
+.notfound h1{
+    color: var(--text1);
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
